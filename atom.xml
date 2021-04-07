@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://imxiaosun.cn</id>
     <title>小孙的科研道路</title>
-    <updated>2021-04-07T16:17:23.365Z</updated>
+    <updated>2021-04-07T21:18:57.589Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://imxiaosun.cn"/>
     <link rel="self" href="https://imxiaosun.cn/atom.xml"/>
@@ -11,22 +11,33 @@
     <icon>https://imxiaosun.cn/favicon.ico</icon>
     <rights>All rights reserved 2021, 小孙的科研道路</rights>
     <entry>
-        <title type="html"><![CDATA[Stress concentration of notched plate 带孔平板应力集中]]></title>
+        <title type="html"><![CDATA[Stress concentration of notched plate under axial loading 带孔平板在轴向拉力作用下应力集中]]></title>
         <id>https://imxiaosun.cn/post/fatigue-stress-concentration-of-notched-plate-dai-kong-ping-ban-pi-lao-ying-li-ji-zhong/</id>
         <link href="https://imxiaosun.cn/post/fatigue-stress-concentration-of-notched-plate-dai-kong-ping-ban-pi-lao-ying-li-ji-zhong/">
         </link>
-        <updated>2021-04-06T02:42:16.000Z</updated>
-        <summary type="html"><![CDATA[<p>最近做了一个疲劳应力集中的作业，在这里记录一下如何计算带孔板的应力集中，并进行有限元验证。</p>
-<p>如下图的一个带孔平板，受到了100kN的拉力，计算它所受到的最大应力。其中D = 100 mm, r = 15 mm, t = 25 mm.</p>
-<figure data-type="image" tabindex="1"><img src="https://imxiaosun.cn/post-images/1617811153346.png" alt="" loading="lazy"></figure>
-]]></summary>
-        <content type="html"><![CDATA[<p>最近做了一个疲劳应力集中的作业，在这里记录一下如何计算带孔板的应力集中，并进行有限元验证。</p>
-<p>如下图的一个带孔平板，受到了100kN的拉力，计算它所受到的最大应力。其中D = 100 mm, r = 15 mm, t = 25 mm.</p>
-<figure data-type="image" tabindex="1"><img src="https://imxiaosun.cn/post-images/1617811153346.png" alt="" loading="lazy"></figure>
-<!-- more -->
-<figure data-type="image" tabindex="2"><img src="https://imxiaosun.cn/post-images/1617811042292.png" alt="" loading="lazy"></figure>
-<p>Nominal stress<br>
-Net stress: Net stress is higher than nominal but not high enough. The discontinuity of the cross-section produces an increase of stress above net stress.</p>
+        <updated>2021-04-05T19:42:16.000Z</updated>
+        <content type="html"><![CDATA[<p>Recently, I did a coursework for the calculation of fatigue stress concentration of notched plate. In this blog, I will try to explain how to calculate the stress concentration factor and the value of maximum stress. The results will be compared with numerical results.</p>
+<p>最近做了一个疲劳应力集中的作业，在这里记录一下如何计算带孔板的应力集中，并进行有限元验证。</p>
+<p>The following picture displayed the plate with a middle hole. The material of plate is steel. It was under the tensile force with value of 1 kN. The mechanical properties was used as E = 210 Gpa, v =0.29. The detail parameter listed below:</p>
+<ul>
+<li>Thickness: 1 mm</li>
+<li>Length: 60 mm</li>
+<li>Width: 10 mm</li>
+<li>Diameter of hole: 5 mm</li>
+</ul>
+<p>如下图的一个带孔平板，材料是钢，受到了1000N的拉力，计算它所受到的最大应力。其中D = 60 mm, d = 5 mm, t = 1 mm.</p>
+<p><img src="https://imxiaosun.cn/post-images/1617828568166.png" alt="" loading="lazy"><br>
+<strong>Figure 1 -</strong> Plate with hole.<br>
+<img src="https://imxiaosun.cn/post-images/1617828483034.png" alt="" loading="lazy"><br>
+<strong>Figure 2 -</strong> Stress concentration factor [1].</p>
+<p>Firstly, we need to understand what is the nominal stress and net stress.<br>
+Nominal stress: Stress calculated on the basis o fthe net cross section of a specimen without taking into account the effect of geometric discontinuities such as holes, grooves, fillets, etc.</p>
+<p>Net stress: Net stress is higher than nominal but not high enough. The discontinuity of the cross-section produces an increase of stress above σ_net.</p>
+<h1 id="analytical-method"><strong>Analytical method</strong></h1>
+<p>According to d/w = 0.5, we can find the corresponding stress concentration factor is 2.19 approximately.</p>
+<h1 id="numerical-simulation-ansys-workbench"><strong>Numerical simulation (ANSYS Workbench)</strong></h1>
+<h1 id="reference-list"><strong>Reference list</strong></h1>
+<p>[1] https://www.youtube.com/watch?v=uvK0pig6wFg&amp;t=234s</p>
 ]]></content>
     </entry>
     <entry>
