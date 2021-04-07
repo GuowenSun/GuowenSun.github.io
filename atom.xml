@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://imxiaosun.cn</id>
     <title>小孙的科研道路</title>
-    <updated>2021-04-07T13:37:12.891Z</updated>
+    <updated>2021-04-07T13:47:18.248Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://imxiaosun.cn"/>
     <link rel="self" href="https://imxiaosun.cn/atom.xml"/>
@@ -10,6 +10,16 @@
     <logo>https://imxiaosun.cn/images/avatar.png</logo>
     <icon>https://imxiaosun.cn/favicon.ico</icon>
     <rights>All rights reserved 2021, 小孙的科研道路</rights>
+    <entry>
+        <title type="html"><![CDATA[Fatigue stress concentration of notched plate 带孔平板疲劳应力集中]]></title>
+        <id>https://imxiaosun.cn/post/fatigue-stress-concentration-of-notched-plate-dai-kong-ping-ban-pi-lao-ying-li-ji-zhong/</id>
+        <link href="https://imxiaosun.cn/post/fatigue-stress-concentration-of-notched-plate-dai-kong-ping-ban-pi-lao-ying-li-ji-zhong/">
+        </link>
+        <updated>2021-04-07T06:42:16.000Z</updated>
+        <content type="html"><![CDATA[<p>最近帮学弟完成了一项疲劳应力集中的作业，顺便复习了平板疲劳应力集中。这个作业比想象的麻烦一些，花费了挺长时间总结和计算。在这里记录下这次作业的一部分内容吧。</p>
+<p>作业描述：</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello my blog!]]></title>
         <id>https://imxiaosun.cn/post/hello-my-blog/</id>
