@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://imxiaosun.cn</id>
     <title>小孙的科研道路</title>
-    <updated>2021-04-07T15:59:23.076Z</updated>
+    <updated>2021-04-07T16:12:30.350Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://imxiaosun.cn"/>
     <link rel="self" href="https://imxiaosun.cn/atom.xml"/>
@@ -29,15 +29,23 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Hello my blog!]]></title>
+        <title type="html"><![CDATA[Hello my first blog!]]></title>
         <id>https://imxiaosun.cn/post/hello-my-blog/</id>
         <link href="https://imxiaosun.cn/post/hello-my-blog/">
         </link>
-        <updated>2021-04-06T09:00:00.000Z</updated>
+        <updated>2021-04-06T02:00:00.000Z</updated>
         <content type="html"><![CDATA[<!-- more -->
+<p>这是个分享自己生活以及学习的地方！<br>
+<img src="https://imxiaosun.cn/post-images/1617811944061.jpg" alt="" loading="lazy"></p>
 <!-- more -->
-<!-- more -->
-<p>这是个分享自己科研生活的地方！</p>
+<p>目前是一个科研菜狗🐶，主要方向是研究以及优化基于TFP制造的复合材料<br>
+<img src="https://imxiaosun.cn/post-images/1617811550520.jpg" alt="" loading="lazy"></p>
+<p>坐标：谢村，英国（一个到处是坡的中餐村）<br>
+放个标志性教堂照片：<br>
+<img src="https://imxiaosun.cn/post-images/1617811848475.jpg" alt="" loading="lazy"></p>
+<p>状态：疯长小肚子中。。。<br>
+喜欢的明星：沈腾<br>
+<img src="https://imxiaosun.cn/post-images/1617811931502.jpg" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
 </feed>
