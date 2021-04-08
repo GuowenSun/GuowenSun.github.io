@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://imxiaosun.cn</id>
     <title>小孙的科研道路</title>
-    <updated>2021-04-08T15:50:02.219Z</updated>
+    <updated>2021-04-08T16:00:25.939Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://imxiaosun.cn"/>
     <link rel="self" href="https://imxiaosun.cn/atom.xml"/>
@@ -35,7 +35,7 @@
         <id>https://imxiaosun.cn/post/fatigue-stress-concentration-of-notched-plate-dai-kong-ping-ban-pi-lao-ying-li-ji-zhong/</id>
         <link href="https://imxiaosun.cn/post/fatigue-stress-concentration-of-notched-plate-dai-kong-ping-ban-pi-lao-ying-li-ji-zhong/">
         </link>
-        <updated>2021-04-05T05:42:16.000Z</updated>
+        <updated>2021-04-04T22:42:16.000Z</updated>
         <content type="html"><![CDATA[<p>Recently, I did a coursework for the calculation of fatigue stress concentration of notched plate. In this blog, I will try to explain how to calculate the stress concentration factor and the value of maximum stress. The results will be compared with numerical results.</p>
 <p>最近做了一个疲劳应力集中的作业，在这里记录一下如何计算带孔板的应力集中，并进行有限元验证。</p>
 <p>The following picture displayed the plate with a middle hole (Figure 1). The material of plate is steel. It was under the tensile force with value of 1 kN. The mechanical properties was used as E = 210 Gpa, v =0.29. The detail parameter listed below:</p>
@@ -45,11 +45,7 @@
 <li>Width: 10 mm</li>
 <li>Diameter of hole: 5 mm</li>
 </ul>
-<p>如下图的一个带孔平板，材料是钢，受到了1000N的拉力，计算它所受到的最大应力。其中L = 60, W = 10 mm, D = 5 mm, t = 1 mm.</p>
-<p><img src="https://imxiaosun.cn/post-images/1617828568166.png" alt="" loading="lazy"><br>
-<strong>Figure 1 -</strong> Plate with hole.<br>
-<img src="https://imxiaosun.cn/post-images/1617828483034.png" alt="" loading="lazy"><br>
-<strong>Figure 2 -</strong> Stress concentration factor [1].</p>
+<p>如下图的一个带孔平板，材料是钢，受到了1000N的拉力，计算它所受到的最大应力。其中L = 60, W = 10 mm, D = 5 mm, t = 1 mm. <center><img src="https://imxiaosun.cn/post-images/1617828483034.png" alt="" loading="lazy"></center><center><strong>Figure 2 -</strong> Stress concentration factor.</center></p>
 <p>Firstly, we need to understand what is the nominal stress and net stress.<br>
 Nominal stress: Stress calculated on the basis o fthe net cross section of a specimen without taking into account the effect of geometric discontinuities such as holes, grooves, fillets, etc.</p>
 <p>Net stress: Net stress is higher than nominal but not high enough. The discontinuity of the cross-section produces an increase of stress above σ_net.</p>
