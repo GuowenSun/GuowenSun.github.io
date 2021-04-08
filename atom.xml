@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://imxiaosun.cn</id>
     <title>小孙的科研道路</title>
-    <updated>2021-04-08T17:08:26.502Z</updated>
+    <updated>2021-04-08T17:09:21.031Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://imxiaosun.cn"/>
     <link rel="self" href="https://imxiaosun.cn/atom.xml"/>
@@ -35,7 +35,7 @@
         <id>https://imxiaosun.cn/post/fatigue-stress-concentration-of-notched-plate-dai-kong-ping-ban-pi-lao-ying-li-ji-zhong/</id>
         <link href="https://imxiaosun.cn/post/fatigue-stress-concentration-of-notched-plate-dai-kong-ping-ban-pi-lao-ying-li-ji-zhong/">
         </link>
-        <updated>2021-04-04T15:42:16.000Z</updated>
+        <updated>2021-04-04T08:42:16.000Z</updated>
         <content type="html"><![CDATA[<p>Recently, I did a coursework for the calculation of fatigue stress concentration of notched plate. In this blog, I will try to explain how to calculate the stress concentration factor and the value of maximum stress. The results will be compared with numerical results.</p>
 <p>最近做了一个疲劳应力集中的作业，在这里记录一下如何计算带孔板的应力集中，并进行有限元验证。</p>
 <p>The following picture displayed the plate with a middle hole (Figure 1). The material of plate is steel. It was under the tensile force with value of 1 kN. The mechanical properties was used as E = 210 Gpa, v =0.29. The detail parameter listed below:</p>
