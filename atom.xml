@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://imxiaosun.cn</id>
     <title>小孙的科研道路</title>
-    <updated>2021-04-10T13:59:26.064Z</updated>
+    <updated>2021-04-10T13:59:53.090Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://imxiaosun.cn"/>
     <link rel="self" href="https://imxiaosun.cn/atom.xml"/>
@@ -22,6 +22,6 @@
         <id>https://imxiaosun.cn/post/fatigue-stress-concentration-of-notched-plate-dai-kong-ping-ban-pi-lao-ying-li-ji-zhong/</id>
         <link href="https://imxiaosun.cn/post/fatigue-stress-concentration-of-notched-plate-dai-kong-ping-ban-pi-lao-ying-li-ji-zhong/">
         </link>
-        <updated>2021-04-03T11:42:16.000Z</updated>
+        <updated>2021-04-03T04:42:16.000Z</updated>
     </entry>
 </feed>
