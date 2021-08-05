@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://imxiaosun.cn</id>
     <title>小孙的科研道路</title>
-    <updated>2021-04-10T14:16:11.070Z</updated>
+    <updated>2021-08-05T08:18:51.454Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://imxiaosun.cn"/>
     <link rel="self" href="https://imxiaosun.cn/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://imxiaosun.cn/images/avatar.png</logo>
     <icon>https://imxiaosun.cn/favicon.ico</icon>
     <rights>All rights reserved 2021, 小孙的科研道路</rights>
+    <entry>
+        <title type="html"><![CDATA[Python codes for generate fibre randomly in the RVE model 使用Python随机生成纤维 RVE 模型]]></title>
+        <id>https://imxiaosun.cn/post/python-codes-for-generate-fibre-randomly-in-the-rve-model-shi-yong-python-sui-ji-sheng-cheng-xian-wei-rve-mo-xing/</id>
+        <link href="https://imxiaosun.cn/post/python-codes-for-generate-fibre-randomly-in-the-rve-model-shi-yong-python-sui-ji-sheng-cheng-xian-wei-rve-mo-xing/">
+        </link>
+        <updated>2021-08-05T00:54:33.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How to transfer local picture to an url picture 怎么讲本地图片转换成网络链接图片]]></title>
         <id>https://imxiaosun.cn/post/how-to-transfer-local-picture-to-an-url-picture-zen-me-jiang-ben-di-tu-pian-zhuan-huan-cheng-wang-luo-lian-jie-tu-pian/</id>
