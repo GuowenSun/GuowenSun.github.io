@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://imxiaosun.cn</id>
     <title>小孙的科研道路</title>
-    <updated>2021-10-31T18:50:25.969Z</updated>
+    <updated>2021-10-31T18:51:36.443Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://imxiaosun.cn"/>
     <link rel="self" href="https://imxiaosun.cn/atom.xml"/>
@@ -15,7 +15,7 @@
         <id>https://imxiaosun.cn/post/ru-he-xie-zai-windows-zi-xi-tong-xia-de-ubuntu/</id>
         <link href="https://imxiaosun.cn/post/ru-he-xie-zai-windows-zi-xi-tong-xia-de-ubuntu/">
         </link>
-        <updated>2021-10-31T10:34:17.000Z</updated>
+        <updated>2021-10-30T18:34:17.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[Python codes for generate fibre randomly in the RVE model 使用Python随机生成纤维 RVE 模型]]></title>
