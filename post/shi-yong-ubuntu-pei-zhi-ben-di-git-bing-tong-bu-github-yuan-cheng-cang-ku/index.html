@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>Python codes for generate fibre randomly in the RVE model 使用Python随机生成纤维 RVE 模型 | 小孙的科研道路</title>
+<title>使用Ubuntu 配置本地git 并同步github远程仓库 | 小孙的科研道路</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -27,7 +27,10 @@
 </script>
 
 
-    <meta name="description" content="The initial concept is to build a RVE model with the fibre centre randomly generated within a specified boundary. In thi..." />
+    <meta name="description" content="apt install git
+git config --global user.email &quot;填入邮箱&quot;
+git config --global user.name &quot;填入名称&quot;
+ssh-keyge..." />
     <meta name="keywords" content="" />
   </head>
   <body>
@@ -99,23 +102,40 @@
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
           <div class="post-detail">
-            <h2 class="post-title">Python codes for generate fibre randomly in the RVE model 使用Python随机生成纤维 RVE 模型</h2>
-            <div class="post-date">2021-08-05</div>
+            <h2 class="post-title">使用Ubuntu 配置本地git 并同步github远程仓库</h2>
+            <div class="post-date">2021-11-01</div>
             
             <div class="post-content" v-pre>
-              <p>The initial concept is to build a RVE model with the fibre centre randomly generated within a specified boundary. In this blog, my intial concept will be presented. Although it provides a very low effiency and low productivity on the fibre generation, it has a big potential for being a powerful RVE model generator with random fibre distribution.</p>
-<p>The RVE means the representative volume element that is sufficient to represent effective properties of composites.<br>
-Since we need to generate a RVE model, there are several parameters requiring to be defined. The essential one is the fibre radius. The fibre radius value can be obtained from the SEM observation with adoption of image processing. Such process I achieved is by the Python. In this example, the fibre radius of 0.38679 was adopted.<br>
-The boundary of fibre generating area should be defined further. It should be 50 times of fibre radius value according to Trias work done.</p>
+              <p><code>apt install git</code><br>
+<code>git config --global user.email &quot;填入邮箱&quot;</code><br>
+<code>git config --global user.name &quot;填入名称&quot;</code></p>
+<p><code>ssh-keygen -t rsa</code><br>
+<code>cat /root/.ssh/id_rsa.pub</code><br>
+打开之后复制，然后粘贴到git hub 远程仓库的SSH keys 中</p>
+<p>输入下面的命令检查是否成功哦那个配置ssh<br>
+<code>ssh -T git@github.com</code></p>
+<p>使用git clone从远程仓库下载文件<br>
+<code>git clone 这里输入SSH的那个链接</code></p>
+<p>使用git push上传文件到远程仓库<br>
+<code>git add xxx</code><br>
+查看当前git状态<br>
+<code>git status</code><br>
+commit 文件<br>
+<code>git commit -m &quot;输入备注&quot;</code><br>
+上传文件<br>
+<code>git push origin master</code></p>
+<p>使用<code>git remote -v</code>查看远程仓库地址<br>
+使用<code>git remote -vv</code>查看当前工作branch<br>
+使用<code>git remote add origin 这里输入SSH的那个链接</code>添加 仓库地址</p>
 
             </div>
             
             
               <div class="next-post">
                 <div class="next">下一篇</div>
-                <a href="https://imxiaosun.cn/post/how-to-transfer-local-picture-to-an-url-picture-zen-me-jiang-ben-di-tu-pian-zhuan-huan-cheng-wang-luo-lian-jie-tu-pian/">
+                <a href="https://imxiaosun.cn/post/ru-he-xie-zai-windows-zi-xi-tong-xia-de-ubuntu/">
                   <h3 class="post-title">
-                    How to transfer local picture to an url picture 怎么讲本地图片转换成网络链接图片
+                    如何卸载windows子系统下的Ubuntu
                   </h3>
                 </a>
               </div>
