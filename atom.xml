@@ -2,14 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://imxiaosun.cn</id>
     <title>小孙的科研道路</title>
-    <updated>2021-11-01T11:33:48.686Z</updated>
+    <updated>2022-01-12T21:29:37.489Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://imxiaosun.cn"/>
     <link rel="self" href="https://imxiaosun.cn/atom.xml"/>
     <subtitle>一个秃头怪的博客</subtitle>
     <logo>https://imxiaosun.cn/images/avatar.png</logo>
     <icon>https://imxiaosun.cn/favicon.ico</icon>
-    <rights>All rights reserved 2021, 小孙的科研道路</rights>
+    <rights>All rights reserved 2022, 小孙的科研道路</rights>
+    <entry>
+        <title type="html"><![CDATA[如何安装Openfoam到Ubuntu中]]></title>
+        <id>https://imxiaosun.cn/post/ru-he-an-zhuang-openfoam-dao-ubuntu-zhong/</id>
+        <link href="https://imxiaosun.cn/post/ru-he-an-zhuang-openfoam-dao-ubuntu-zhong/">
+        </link>
+        <updated>2021-11-02T01:27:00.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[使用Ubuntu 配置本地git 并同步github远程仓库]]></title>
         <id>https://imxiaosun.cn/post/shi-yong-ubuntu-pei-zhi-ben-di-git-bing-tong-bu-github-yuan-cheng-cang-ku/</id>
