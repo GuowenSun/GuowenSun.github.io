@@ -1,108 +1,130 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" >
 
-<title>Stress concentration of notched plate under axial loading 带孔平板在轴向拉力作用下应力集中 | 小孙的科研道路</title>
-<meta name="description" content="一个秃头怪的博客">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="https://imxiaosun.cn/favicon.ico?v=1642022970535">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>
+    Stress concentration of notched plate under axial loading 带孔平板在轴向拉力作用下应力集中 | 小孙的科研道路
+</title>
+<link rel="shortcut icon" href="https://imxiaosun.cn/favicon.ico?v=1642023905441">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://imxiaosun.cn/styles/main.css">
-
-
+<!-- js -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://imxiaosun.cn/media/js/jquery.sticky-sidebar.min.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        
+</head>
 
-
-  </head>
-  <body>
-  
-    <nav class="navbar border fixed split-nav">
-  <div class="nav-brand">
-    <h3><a href="https://imxiaosun.cn">小孙的科研道路</a></h3>
-  </div>
-  <div class="collapsible">
-    <input id="collapsible1" type="checkbox" name="collapsible1">
-    <button>
-      <label for="collapsible1">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-      </label>
-    </button>
-    <div class="collapsible-body">
-      <ul class="inline">
-        
-          <li>
-            
-              <a href="/" class="menu">
-                首页
-              </a>
-            
-          </li>
-        
-          <li>
-            
-              <a href="/archives" class="menu">
-                Blog文档
-              </a>
-            
-          </li>
-        
-          <li>
-            
-              <a href="/tags" class="menu">
-                标签
-              </a>
-            
-          </li>
-        
-          <li>
-            
-              <a href="/post/about" class="menu">
-                关于
-              </a>
-            
-          </li>
-        
-      </ul>
+<body>
+    <div class="main">
+        <div class="header">
+    <div class="nav">
+        <div class="logo">
+            <a href="https://imxiaosun.cn">
+                <img class="avatar" src="https://imxiaosun.cn/images/avatar.png?v=1642023905441" alt="">
+            </a>
+            <div class="site-title">
+                <h1>
+                    小孙的科研道路
+                </h1>
+            </div>
+        </div>
+        <span class="menu-btn fa fa-align-justify"></span>
+        <div class="menu-container">
+            <ul>
+                
+                    
+                            <li>
+                                <a href="/" class="menu">
+                                    首页
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/archives" class="menu">
+                                    Blog文档
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/tags" class="menu">
+                                    标签
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/post/about" class="menu">
+                                    关于
+                                </a>
+                            </li>
+                            
+                                
+            </ul>
+        </div>
     </div>
-  </div>
-</nav>
+</div>
 
-    <div id="top" class="row site">
-      <div class="sm-12 md-8 col">
-        <div class="paper">
-          <article class="article">
-            <h1>Stress concentration of notched plate under axial loading 带孔平板在轴向拉力作用下应力集中</h1>
-            <p class="article-meta">
-              2021-04-01
-              
-                <a href="https://imxiaosun.cn/tag/ar3TXlkH8/" class="badge success">
-                  Stress concentration
-                </a>
-              
-                <a href="https://imxiaosun.cn/tag/FdXAbRyov/" class="badge secondary">
-                  Study
-                </a>
-              
-                <a href="https://imxiaosun.cn/tag/uNT65SC8mV/" class="badge ">
-                  FEA
-                </a>
-              
-            </p>
-            
-              <img src="https://imxiaosun.cn/post-images/fatigue-stress-concentration-of-notched-plate-dai-kong-ping-ban-pi-lao-ying-li-ji-zhong.png" alt="Stress concentration of notched plate under axial loading 带孔平板在轴向拉力作用下应力集中">
-            
-            <div class="post-content">
-              <p>Recently, I did a coursework for the calculation of fatigue stress concentration of notched plate. In this blog, I will try to explain how to calculate the stress concentration factor and the value of maximum stress. The results will be compared with numerical results.</p>
+<script>
+    $(document).ready(function() {
+        $(".menu-btn").click(function() {
+            $(".menu-container").slideToggle();
+        });
+        $(window).resize(function() {
+
+            if (window.matchMedia('(min-width: 960px)').matches) {
+                $(".menu-container").css('display', 'block')
+            } else {
+                $(".menu-container").css('display', 'none')
+            }
+
+        });
+    });
+</script>
+
+            <div id="main-content" class="post-detail main-container">
+                <!-- left -->
+                <div id="content" class="main-container-left">
+                    <article class="post i-card">
+                        <h2 class="post-title">
+                            Stress concentration of notched plate under axial loading 带孔平板在轴向拉力作用下应力集中
+                        </h2>
+                        <div class="post-info">
+                            <time class="post-time">2021-04-01</time>
+                            
+                                <a href="https://imxiaosun.cn/tag/ar3TXlkH8/" class="post-tag i-tag
+                            i-tag-warning">
+                            #Stress concentration
+                        </a>
+                                
+                                <a href="https://imxiaosun.cn/tag/FdXAbRyov/" class="post-tag i-tag
+                            i-tag-warning">
+                            #Study
+                        </a>
+                                
+                                <a href="https://imxiaosun.cn/tag/uNT65SC8mV/" class="post-tag i-tag
+                            i-tag-info">
+                            #FEA
+                        </a>
+                                
+                        </div>
+                        
+                            <div class="post-feature-image" style="background-image: url('https://imxiaosun.cn/post-images/fatigue-stress-concentration-of-notched-plate-dai-kong-ping-ban-pi-lao-ying-li-ji-zhong.png')"></div>
+                            
+                                <div class="post-content">
+                                    <p>Recently, I did a coursework for the calculation of fatigue stress concentration of notched plate. In this blog, I will try to explain how to calculate the stress concentration factor and the value of maximum stress. The results will be compared with numerical results.</p>
 <p>最近做了一个疲劳应力集中的作业，在这里记录一下如何计算带孔板的应力集中，并进行有限元验证。</p>
 <p>The following picture displayed the plate with a middle hole (Figure 1). The material of plate is steel. It was under the tensile force with value of 1 kN. The mechanical properties was used as E = 210 Gpa, v =0.29. The detail parameter listed below:</p>
 <ul>
@@ -141,119 +163,84 @@ Firstly, we need to understand what is the nominal stress and net stress. **Nomi
 <div id = "refer-anchor-1"></div>
 [1] https://youtu.be/uvK0pig6wFg
 
-            </div>
-          </article>
-        </div>
-        <div class="paper" data-aos="fade-in">
-          
-        </div>
-        
-      </div>
+                                </div>
+                    </article>
+                    <!--  -->
+                    
+                            <div id="disqus_thread"></div>
+                            <div id="gitalk-container"></div>
+                </div>
+                <!-- middle -->
+                <div class="main-container-middle"></div>
+                <!-- right -->
+                <div id="sidebar" class="main-container-right">
+                    
+                        <!-- toc -->
+                        
+    <div class="toc-card i-card ">
+        <div class="toc-title i-card-title">目录</div>
+        <div class="toc-content">
+            <ul class="markdownIt-TOC">
+<li><a href="#analytical-method"><strong>Analytical method</strong></a></li>
+<li><a href="#numerical-simulation-ansys-workbench"><strong>Numerical simulation (ANSYS Workbench)</strong></a></li>
+<li><a href="#recommendation-video"><strong>Recommendation video</strong></a></li>
+<li><a href="#reference-list"><strong>Reference list</strong></a></li>
+</ul>
 
-      <div class="sm-12 md-4 col sidebar">
-  <div class="paper info-container">
-    <img src="https://imxiaosun.cn/images/avatar.png?v=1642022970535" class="no-responsive avatar">
-    <div class="text-muted">一个秃头怪的博客</div>
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
+        </div>
+        <script>
+            function locateCatelogList() {
+                /*获取文章目录集合,可通过:header过滤器*/
+                var alis = $('.post-content :header');
+                /*获取侧边栏目录列表集合**/
+                var sidebar_alis = $('.markdownIt-TOC a');
+                /*获取滚动条到顶部的距离*/
+                var scroll_height = $(window).scrollTop();
+                for (var i = 0; i < alis.length; i++) {
+                    /*获取锚点集合中的元素分别到顶点的距离*/
+                    var a_height = $(alis[i]).offset().top;
+                    if (a_height < scroll_height) {
+                        /*高亮显示*/
+                        sidebar_alis.removeClass('on');
+                        $(sidebar_alis[i]).addClass('on');
+                    }
+                }
+            }
+            $(function() {
+                /*绑定滚动事件 */
+                $(window).bind('scroll', locateCatelogList);
+            });
+        </script>
     </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      最新文章
-    </div>
-    <div class="row">
-      <ul>
-        
-          
-            <li>
-              <a href="https://imxiaosun.cn/post/ru-he-an-zhuang-openfoam-dao-ubuntu-zhong/">如何安装Openfoam到Ubuntu中</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://imxiaosun.cn/post/shi-yong-ubuntu-pei-zhi-ben-di-git-bing-tong-bu-github-yuan-cheng-cang-ku/">使用Ubuntu 配置本地git 并同步github远程仓库</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://imxiaosun.cn/post/ru-he-xie-zai-windows-zi-xi-tong-xia-de-ubuntu/">如何卸载windows子系统下的Ubuntu</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://imxiaosun.cn/post/python-codes-for-generate-fibre-randomly-in-the-rve-model-shi-yong-python-sui-ji-sheng-cheng-xian-wei-rve-mo-xing/">Python codes for generate fibre randomly in the RVE model 使用Python随机生成纤维 RVE 模型</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://imxiaosun.cn/post/how-to-transfer-local-picture-to-an-url-picture-zen-me-jiang-ben-di-tu-pian-zhuan-huan-cheng-wang-luo-lian-jie-tu-pian/">How to transfer local picture to an url picture 怎么讲本地图片转换成网络链接图片</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://imxiaosun.cn/post/fatigue-stress-concentration-of-notched-plate-dai-kong-ping-ban-pi-lao-ying-li-ji-zhong/">Stress concentration of notched plate under axial loading 带孔平板在轴向拉力作用下应力集中</a>
-            </li>
-          
-        
-      </ul>
-    </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      标签列表
-    </div>
-    <div class="row">
-      
-        <a href="https://imxiaosun.cn/tag/ar3TXlkH8/" class="badge success">
-          Stress concentration
-        </a>
-      
-        <a href="https://imxiaosun.cn/tag/FdXAbRyov/" class="badge secondary">
-          Study
-        </a>
-      
-        <a href="https://imxiaosun.cn/tag/uNT65SC8mV/" class="badge secondary">
-          FEA
-        </a>
-      
-    </div>
-  </div>
-  <div class="paper">
-    Email: gwsungh@gmail.com | <a class="rss" href="https://imxiaosun.cn/atom.xml" target="_blank">RSS</a>
-  </div>
+    
+                            
+
+                </div>
+
+
+
+
+            </div>
+
+
+            <div class="site-footer">
+  Email: gwsungh@gmail.com | 
+  <a class="rss" href="https://imxiaosun.cn/atom.xml" target="_blank">RSS</a>
 </div>
 
-
-    </div>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
-<script type="application/javascript">
-
-AOS.init();
-
-hljs.initHighlightingOnLoad()
-
+<script>
+  hljs.initHighlightingOnLoad()
 </script>
 
 
+    </div>
+    <script>
+        $('#sidebar').stickySidebar({
+            topSpacing: 80,
+            // bottomSpacing: 60
+        });
+    </script>
+    
+</body>
 
-
-  </body>
 </html>

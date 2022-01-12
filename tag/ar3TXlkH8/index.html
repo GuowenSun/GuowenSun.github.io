@@ -1,229 +1,243 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" >
 
-<title>Stress concentration | 小孙的科研道路</title>
-<meta name="description" content="一个秃头怪的博客">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="https://imxiaosun.cn/favicon.ico?v=1642022970535">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>
+    Stress concentration | 小孙的科研道路
+</title>
+<link rel="shortcut icon" href="https://imxiaosun.cn/favicon.ico?v=1642023905441">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://imxiaosun.cn/styles/main.css">
-
-
+<!-- js -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://imxiaosun.cn/media/js/jquery.sticky-sidebar.min.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
 
-
-  </head>
-  <body>
-    <nav class="navbar border fixed split-nav">
-  <div class="nav-brand">
-    <h3><a href="https://imxiaosun.cn">小孙的科研道路</a></h3>
-  </div>
-  <div class="collapsible">
-    <input id="collapsible1" type="checkbox" name="collapsible1">
-    <button>
-      <label for="collapsible1">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-      </label>
-    </button>
-    <div class="collapsible-body">
-      <ul class="inline">
-        
-          <li>
-            
-              <a href="/" class="menu">
-                首页
-              </a>
-            
-          </li>
-        
-          <li>
-            
-              <a href="/archives" class="menu">
-                Blog文档
-              </a>
-            
-          </li>
-        
-          <li>
-            
-              <a href="/tags" class="menu">
-                标签
-              </a>
-            
-          </li>
-        
-          <li>
-            
-              <a href="/post/about" class="menu">
-                关于
-              </a>
-            
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-</nav>
-
-    <div id="top" class="row site">
-      <div class="sm-12 md-8 col">
-        <div class="paper">
-          <h2 class="current-tag">标签: Stress concentration</h2>
-          
-  <article class="article">
-    <h2 class="article-title">
-      <a href="https://imxiaosun.cn/post/fatigue-stress-concentration-of-notched-plate-dai-kong-ping-ban-pi-lao-ying-li-ji-zhong/">Stress concentration of notched plate under axial loading 带孔平板在轴向拉力作用下应力集中</a>
-    </h2>
-    <p class="article-meta">
-      2021-04-01
-      
-        <a href="https://imxiaosun.cn/tag/ar3TXlkH8/" class="badge success">
-          Stress concentration
-        </a>
-      
-        <a href="https://imxiaosun.cn/tag/FdXAbRyov/" class="badge secondary">
-          Study
-        </a>
-      
-        <a href="https://imxiaosun.cn/tag/uNT65SC8mV/" class="badge warning">
-          FEA
-        </a>
-      
-    </p>
-    <p class="text-lead">
-      
-    </p>
-    <div class="row">
-      <a href="https://imxiaosun.cn/post/fatigue-stress-concentration-of-notched-plate-dai-kong-ping-ban-pi-lao-ying-li-ji-zhong/" class="readmore-link">
-        <button>
-          Read More
-        </button>
-      </a>
-    </div>
-  </article>
-
-
+<body>
+    <div class="main">
+        <div class="header">
+    <div class="nav">
+        <div class="logo">
+            <a href="https://imxiaosun.cn">
+                <img class="avatar" src="https://imxiaosun.cn/images/avatar.png?v=1642023905441" alt="">
+            </a>
+            <div class="site-title">
+                <h1>
+                    小孙的科研道路
+                </h1>
+            </div>
         </div>
-        <div class="row flex-edges">
-  
-  
+        <span class="menu-btn fa fa-align-justify"></span>
+        <div class="menu-container">
+            <ul>
+                
+                    
+                            <li>
+                                <a href="/" class="menu">
+                                    首页
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/archives" class="menu">
+                                    Blog文档
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/tags" class="menu">
+                                    标签
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/post/about" class="menu">
+                                    关于
+                                </a>
+                            </li>
+                            
+                                
+            </ul>
+        </div>
+    </div>
 </div>
 
-      </div>
-      <div class="sm-12 md-4 col sidebar">
-  <div class="paper info-container">
-    <img src="https://imxiaosun.cn/images/avatar.png?v=1642022970535" class="no-responsive avatar">
-    <div class="text-muted">一个秃头怪的博客</div>
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      最新文章
-    </div>
-    <div class="row">
-      <ul>
-        
-          
-            <li>
-              <a href="https://imxiaosun.cn/post/ru-he-an-zhuang-openfoam-dao-ubuntu-zhong/">如何安装Openfoam到Ubuntu中</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://imxiaosun.cn/post/shi-yong-ubuntu-pei-zhi-ben-di-git-bing-tong-bu-github-yuan-cheng-cang-ku/">使用Ubuntu 配置本地git 并同步github远程仓库</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://imxiaosun.cn/post/ru-he-xie-zai-windows-zi-xi-tong-xia-de-ubuntu/">如何卸载windows子系统下的Ubuntu</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://imxiaosun.cn/post/python-codes-for-generate-fibre-randomly-in-the-rve-model-shi-yong-python-sui-ji-sheng-cheng-xian-wei-rve-mo-xing/">Python codes for generate fibre randomly in the RVE model 使用Python随机生成纤维 RVE 模型</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://imxiaosun.cn/post/how-to-transfer-local-picture-to-an-url-picture-zen-me-jiang-ben-di-tu-pian-zhuan-huan-cheng-wang-luo-lian-jie-tu-pian/">How to transfer local picture to an url picture 怎么讲本地图片转换成网络链接图片</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://imxiaosun.cn/post/fatigue-stress-concentration-of-notched-plate-dai-kong-ping-ban-pi-lao-ying-li-ji-zhong/">Stress concentration of notched plate under axial loading 带孔平板在轴向拉力作用下应力集中</a>
-            </li>
-          
-        
-      </ul>
-    </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      标签列表
-    </div>
-    <div class="row">
-      
-        <a href="https://imxiaosun.cn/tag/ar3TXlkH8/" class="badge success">
-          Stress concentration
-        </a>
-      
-        <a href="https://imxiaosun.cn/tag/FdXAbRyov/" class="badge ">
-          Study
-        </a>
-      
-        <a href="https://imxiaosun.cn/tag/uNT65SC8mV/" class="badge warning">
-          FEA
-        </a>
-      
-    </div>
-  </div>
-  <div class="paper">
-    Email: gwsungh@gmail.com | <a class="rss" href="https://imxiaosun.cn/atom.xml" target="_blank">RSS</a>
-  </div>
-</div>
+<script>
+    $(document).ready(function() {
+        $(".menu-btn").click(function() {
+            $(".menu-container").slideToggle();
+        });
+        $(window).resize(function() {
 
-    </div>
+            if (window.matchMedia('(min-width: 960px)').matches) {
+                $(".menu-container").css('display', 'block')
+            } else {
+                $(".menu-container").css('display', 'none')
+            }
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
-<script type="application/javascript">
-
-AOS.init();
-
-hljs.initHighlightingOnLoad()
-
+        });
+    });
 </script>
 
+            <div id="main-content" class="post-container main-container">
+                <div id="content" class="main-container-left">
+                    
+    <div class="i-card">
+        <b>标签：#
+        Stress concentration</b>
+    </div>
+    
+        
+            <article class="post i-card">
+                <h2 class="post-title">
+                    <a href="https://imxiaosun.cn/post/fatigue-stress-concentration-of-notched-plate-dai-kong-ping-ban-pi-lao-ying-li-ji-zhong/">
+                        Stress concentration of notched plate under axial loading 带孔平板在轴向拉力作用下应力集中
+                    </a>
+                </h2>
+                <div class="post-info">
+                    <time class="post-time">2021-04-01</time>
+                    
+                        <a href="https://imxiaosun.cn/tag/ar3TXlkH8/" class="post-tag i-tag
+                            i-tag-other_4">
+            #Stress concentration
+        </a>
+                        
+                        <a href="https://imxiaosun.cn/tag/FdXAbRyov/" class="post-tag i-tag
+                            i-tag-info">
+            #Study
+        </a>
+                        
+                        <a href="https://imxiaosun.cn/tag/uNT65SC8mV/" class="post-tag i-tag
+                            i-tag-banana">
+            #FEA
+        </a>
+                        
+                </div>
+                <div class="post-article">
+                    
+                        <a href="https://imxiaosun.cn/post/fatigue-stress-concentration-of-notched-plate-dai-kong-ping-ban-pi-lao-ying-li-ji-zhong/" class="post-feature-image" style="background-image:url(https://imxiaosun.cn/post-images/fatigue-stress-concentration-of-notched-plate-dai-kong-ping-ban-pi-lao-ying-li-ji-zhong.png) ">
+                        </a>
+                        
+                            <div class="post-content">
+                                
+                                        <div class="post-content-content">
+                                            Recently, I did a coursework for the calculation of fatigue stress concentration of notched plate. In this blog, I will try to explain how to calculate the stress concentration factor and the value of maximum stress. The results will be compared with numerical results.
+最近做了一个疲劳应力集中的作业，在这里记录一下如何计算带孔板的应力集中，并进行有限元验证。
+The following picture displayed the plate with a middle hole (Figure 1). The material of plate is steel. It was under the tensile force with value of 1 kN. The mechanical properties was used as E = 210 Gpa, v =0.29. The detail parameter listed below:
+
+Thickness: 1 mm
+Length: 60 mm
+Width: 10 mm
+Diameter of hole: 5 mm
+
+如下图的一个带孔平板，材料是钢，受到了1000N的拉力，计算它所受到的最大应力。其中L = 60, W = 10 mm, D = 5 mm, t = 1 mm.
+
+Figure 1 - Notched plate.
+
+Figure 2 -Stress concentration factor.
+
+Firstly, we need to understand what is the nominal stress and net stress. **Nominal stress**: Stress calculated on the basis o fthe net cross section of a specimen without taking into account the effect of geometric discontinuities such as holes, grooves, fillets, etc.
+
+**Net stress**: Net stress is higher than nominal but not high enough. The discontinuity of the cross-section produces an increase of stress above $\alpha_n$.
+Analytical method
+First, we need to calculate the nominal area:
+A_n = (W - D) * t = (10 - 5) * 1 = 5 $mm^2$
+
+The nominal stress will be:
+αn=PAn=200MPa\alpha_n=\frac{P}{A_n} = 200 MPa
+αn​=An​P​=200MPa
+The ratio between diameter of hole and width of plate is DW=0.5\frac{D}{W} = 0.5WD​=0.5. According to Figure 2, we can find the corresponding stress concentration factor is 2.19 approximately. The maximum stress will be around:
+αm=Kt∗αn=438MPa\alpha_m = K_t * \alpha_n = 438 MPa
+αm​=Kt​∗αn​=438MPa
+Numerical simulation (ANSYS Workbench)
+The numerical simulation was implemented to verify analytical results. As shown in the Figure 3. The maximum area was near the hole.
+The maximum
+Recommendation video
+The procedure was following with the video shown below by Prof. Ever J Barbero 1. His youtube channel mainly teach students CAE software, including Abaqus and ANSYS.
+ 
+Reference list
+
+[1] https://youtu.be/uvK0pig6wFg
+
+                                        </div>
+                                        
+                                            <a class="btn btn-text" href="https://imxiaosun.cn/post/fatigue-stress-concentration-of-notched-plate-dai-kong-ping-ban-pi-lao-ying-li-ji-zhong/">Read More ~</a>
+                            </div>
+                </div>
+            </article>
+            
+                <!-- 翻页 -->
+                
+                </div>
+                <!--  -->
+                <div class="main-container-middle"></div>
+                <!--  -->
+                <div id="sidebar" class="main-container-right">
+
+                    <!-- 个人信息 -->
+                    
+    <div class="id_card i-card">
+        <div class="id_card-avatar" style="background-image: url(https://imxiaosun.cn/images/avatar.png?v=1642023905441)">
+        </div>
+        <h1 class="id_card-title">
+            小孙的科研道路
+        </h1>
+        <h2 class="id_card-description">
+            一个秃头怪的博客
+        </h2>
+        <!--  -->
+        <div class="id_card-sns">
+            <!-- github -->
+            
+                    <!-- twitter -->
+                    
+                            <!-- weibo -->
+                            
+                                    <!-- facebook -->
+                                    
+
+        </div>
+    </div>
+    
+
+                        <!-- 公告栏 -->
+                        
+
+                </div>
+            </div>
 
 
 
-  </body>
+            <div class="site-footer">
+  Email: gwsungh@gmail.com | 
+  <a class="rss" href="https://imxiaosun.cn/atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+    </div>
+    <script>
+        $('#sidebar').stickySidebar({
+            topSpacing: 80,
+            // bottomSpacing: 60
+        });
+    </script>
+</body>
+
 </html>

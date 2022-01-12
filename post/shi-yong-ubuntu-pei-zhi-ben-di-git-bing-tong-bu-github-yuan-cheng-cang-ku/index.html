@@ -1,94 +1,113 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" >
 
-<title>使用Ubuntu 配置本地git 并同步github远程仓库 | 小孙的科研道路</title>
-<meta name="description" content="一个秃头怪的博客">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="https://imxiaosun.cn/favicon.ico?v=1642022970535">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>
+    使用Ubuntu 配置本地git 并同步github远程仓库 | 小孙的科研道路
+</title>
+<link rel="shortcut icon" href="https://imxiaosun.cn/favicon.ico?v=1642023905441">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://imxiaosun.cn/styles/main.css">
-
-
+<!-- js -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://imxiaosun.cn/media/js/jquery.sticky-sidebar.min.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        
+</head>
 
-
-  </head>
-  <body>
-  
-    <nav class="navbar border fixed split-nav">
-  <div class="nav-brand">
-    <h3><a href="https://imxiaosun.cn">小孙的科研道路</a></h3>
-  </div>
-  <div class="collapsible">
-    <input id="collapsible1" type="checkbox" name="collapsible1">
-    <button>
-      <label for="collapsible1">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-      </label>
-    </button>
-    <div class="collapsible-body">
-      <ul class="inline">
-        
-          <li>
-            
-              <a href="/" class="menu">
-                首页
-              </a>
-            
-          </li>
-        
-          <li>
-            
-              <a href="/archives" class="menu">
-                Blog文档
-              </a>
-            
-          </li>
-        
-          <li>
-            
-              <a href="/tags" class="menu">
-                标签
-              </a>
-            
-          </li>
-        
-          <li>
-            
-              <a href="/post/about" class="menu">
-                关于
-              </a>
-            
-          </li>
-        
-      </ul>
+<body>
+    <div class="main">
+        <div class="header">
+    <div class="nav">
+        <div class="logo">
+            <a href="https://imxiaosun.cn">
+                <img class="avatar" src="https://imxiaosun.cn/images/avatar.png?v=1642023905441" alt="">
+            </a>
+            <div class="site-title">
+                <h1>
+                    小孙的科研道路
+                </h1>
+            </div>
+        </div>
+        <span class="menu-btn fa fa-align-justify"></span>
+        <div class="menu-container">
+            <ul>
+                
+                    
+                            <li>
+                                <a href="/" class="menu">
+                                    首页
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/archives" class="menu">
+                                    Blog文档
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/tags" class="menu">
+                                    标签
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/post/about" class="menu">
+                                    关于
+                                </a>
+                            </li>
+                            
+                                
+            </ul>
+        </div>
     </div>
-  </div>
-</nav>
+</div>
 
-    <div id="top" class="row site">
-      <div class="sm-12 md-8 col">
-        <div class="paper">
-          <article class="article">
-            <h1>使用Ubuntu 配置本地git 并同步github远程仓库</h1>
-            <p class="article-meta">
-              2021-11-01
-              
-            </p>
-            
-            <div class="post-content">
-              <p><code>apt install git</code><br>
+<script>
+    $(document).ready(function() {
+        $(".menu-btn").click(function() {
+            $(".menu-container").slideToggle();
+        });
+        $(window).resize(function() {
+
+            if (window.matchMedia('(min-width: 960px)').matches) {
+                $(".menu-container").css('display', 'block')
+            } else {
+                $(".menu-container").css('display', 'none')
+            }
+
+        });
+    });
+</script>
+
+            <div id="main-content" class="post-detail main-container">
+                <!-- left -->
+                <div id="content" class="main-container-left">
+                    <article class="post i-card">
+                        <h2 class="post-title">
+                            使用Ubuntu 配置本地git 并同步github远程仓库
+                        </h2>
+                        <div class="post-info">
+                            <time class="post-time">2021-11-01</time>
+                            
+                        </div>
+                        
+                                <div class="post-content">
+                                    <p><code>apt install git</code><br>
 <code>git config --global user.email &quot;填入邮箱&quot;</code><br>
 <code>git config --global user.name &quot;填入名称&quot;</code></p>
 <p><code>ssh-keygen -t rsa</code><br>
@@ -110,130 +129,80 @@ commit 文件<br>
 使用<code>git remote -vv</code>查看当前工作branch<br>
 使用<code>git remote add origin 这里输入SSH的那个链接</code>添加 仓库地址</p>
 
-            </div>
-          </article>
+                                </div>
+                    </article>
+                    <!--  -->
+                    
+                        <div class="next-post">
+                            <div class="next">下一篇</div>
+                            <a href="https://imxiaosun.cn/post/ru-he-xie-zai-windows-zi-xi-tong-xia-de-ubuntu/">
+                                <h3 class="post-title">
+                                    如何卸载windows子系统下的Ubuntu
+                                </h3>
+                            </a>
+                        </div>
+                        
+                            <div id="disqus_thread"></div>
+                            <div id="gitalk-container"></div>
+                </div>
+                <!-- middle -->
+                <div class="main-container-middle"></div>
+                <!-- right -->
+                <div id="sidebar" class="main-container-right">
+                    
+                                <!-- id-card -->
+                                
+    <div class="id_card i-card">
+        <div class="id_card-avatar" style="background-image: url(https://imxiaosun.cn/images/avatar.png?v=1642023905441)">
         </div>
-        <div class="paper" data-aos="fade-in">
-          
-            <div class="next-post">
-              <div class="next">
-                下一篇
-              </div>
-              <a href="https://imxiaosun.cn/post/ru-he-xie-zai-windows-zi-xi-tong-xia-de-ubuntu/">
-                <h3 class="post-title">
-                  如何卸载windows子系统下的Ubuntu
-                </h3>
-              </a>
-            </div>
-          
-        </div>
-        
-      </div>
+        <h1 class="id_card-title">
+            小孙的科研道路
+        </h1>
+        <h2 class="id_card-description">
+            一个秃头怪的博客
+        </h2>
+        <!--  -->
+        <div class="id_card-sns">
+            <!-- github -->
+            
+                    <!-- twitter -->
+                    
+                            <!-- weibo -->
+                            
+                                    <!-- facebook -->
+                                    
 
-      <div class="sm-12 md-4 col sidebar">
-  <div class="paper info-container">
-    <img src="https://imxiaosun.cn/images/avatar.png?v=1642022970535" class="no-responsive avatar">
-    <div class="text-muted">一个秃头怪的博客</div>
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
+        </div>
     </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      最新文章
-    </div>
-    <div class="row">
-      <ul>
-        
-          
-            <li>
-              <a href="https://imxiaosun.cn/post/ru-he-an-zhuang-openfoam-dao-ubuntu-zhong/">如何安装Openfoam到Ubuntu中</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://imxiaosun.cn/post/shi-yong-ubuntu-pei-zhi-ben-di-git-bing-tong-bu-github-yuan-cheng-cang-ku/">使用Ubuntu 配置本地git 并同步github远程仓库</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://imxiaosun.cn/post/ru-he-xie-zai-windows-zi-xi-tong-xia-de-ubuntu/">如何卸载windows子系统下的Ubuntu</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://imxiaosun.cn/post/python-codes-for-generate-fibre-randomly-in-the-rve-model-shi-yong-python-sui-ji-sheng-cheng-xian-wei-rve-mo-xing/">Python codes for generate fibre randomly in the RVE model 使用Python随机生成纤维 RVE 模型</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://imxiaosun.cn/post/how-to-transfer-local-picture-to-an-url-picture-zen-me-jiang-ben-di-tu-pian-zhuan-huan-cheng-wang-luo-lian-jie-tu-pian/">How to transfer local picture to an url picture 怎么讲本地图片转换成网络链接图片</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://imxiaosun.cn/post/fatigue-stress-concentration-of-notched-plate-dai-kong-ping-ban-pi-lao-ying-li-ji-zhong/">Stress concentration of notched plate under axial loading 带孔平板在轴向拉力作用下应力集中</a>
-            </li>
-          
-        
-      </ul>
-    </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      标签列表
-    </div>
-    <div class="row">
-      
-        <a href="https://imxiaosun.cn/tag/ar3TXlkH8/" class="badge ">
-          Stress concentration
-        </a>
-      
-        <a href="https://imxiaosun.cn/tag/FdXAbRyov/" class="badge warning">
-          Study
-        </a>
-      
-        <a href="https://imxiaosun.cn/tag/uNT65SC8mV/" class="badge ">
-          FEA
-        </a>
-      
-    </div>
-  </div>
-  <div class="paper">
-    Email: gwsungh@gmail.com | <a class="rss" href="https://imxiaosun.cn/atom.xml" target="_blank">RSS</a>
-  </div>
+    
+                                    
+
+                </div>
+
+
+
+
+            </div>
+
+
+            <div class="site-footer">
+  Email: gwsungh@gmail.com | 
+  <a class="rss" href="https://imxiaosun.cn/atom.xml" target="_blank">RSS</a>
 </div>
 
-
-    </div>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
-<script type="application/javascript">
-
-AOS.init();
-
-hljs.initHighlightingOnLoad()
-
+<script>
+  hljs.initHighlightingOnLoad()
 </script>
 
 
+    </div>
+    <script>
+        $('#sidebar').stickySidebar({
+            topSpacing: 80,
+            // bottomSpacing: 60
+        });
+    </script>
+    
+</body>
 
-
-  </body>
 </html>
